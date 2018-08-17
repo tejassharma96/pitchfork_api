@@ -1,6 +1,8 @@
 # pitchfork_api
 An unofficial python API for [pitchfork.com](http://www.pitchfork.com) reviews. A maintained version of @michalczaplinski's pitchfork package.
 
+Apologies for the confusing naming - pypi doesn't allow the use of underscores in package names, while python doesn't allow dashes in module names. As a result, the package name is `pitchfork-api`, but it is `pitchfork_api` everywhere else.
+
 
 [![Build Status](https://travis-ci.org/tejassharma96/pitchfork_api.svg?branch=master)]()
 [![PyPI version](https://img.shields.io/pypi/v/pitchfork-api.svg)](https://pypi.python.org/pypi/pitchfork-api/)
