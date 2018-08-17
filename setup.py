@@ -1,22 +1,25 @@
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
+import setuptools
 
-setup(
+
+with open("README", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
     name='pitchfork_api',
-    version='v0.0.1',
+    version='0.0.1',
     author='Tejas Sharma',
     author_email='tejas.s1996@gmail.com',
-    packages=['pitchfork_api', 'tests'],
+    packages=setuptools.find_packages(),
     scripts=[],
     url='https://github.com/tejassharma96/pitchfork_api/',
     license='LICENSE.txt',
     description='Unofficial API for pitchfork.com reviews, maintained version of pitchfork',
-    long_description=open('README').read(),
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     install_requires=['beautifulsoup4'],
     classifiers=[
         'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
