@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# carryover from original
+*.pyc
+build
+dist
+.DS_Store
+README.rst
+pitchfork.egg-info
+.idea/**
