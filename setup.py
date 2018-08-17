@@ -10,7 +10,7 @@ setup(
     author_email='tejas.s1996@gmail.com',
     packages=['pitchfork', 'tests'],
     scripts=[],
-    url='http://pypi.python.org/pypi/pitchfork/',
+    url='https://github.com/tejassharma96/pitchfork_api/',
     license='LICENSE.txt',
     description='Unofficial API for pitchfork.com reviews, maintained version of pitchfork',
     long_description=open('README').read(),
