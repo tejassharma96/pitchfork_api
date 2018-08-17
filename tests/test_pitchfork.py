@@ -1,4 +1,4 @@
-from pytchfork_api.pitchfork import search, Review
+from pitchfork_api.pitchfork import search, Review
 import json
 import unittest
 
