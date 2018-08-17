@@ -22,7 +22,7 @@ class TestReview(unittest.TestCase):
         self.assertEqual(self.review.label(), 'Chemikal Underground')
 
     def test_review_year(self):
-        self.assertEqual(self.review.year(), '1999/2014')
+        self.assertEqual(self.review.year(), 'June 18 2014')
 
     def test_score(self):
         self.assertEqual(self.review.score(), 8.3)
