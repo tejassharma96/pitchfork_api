@@ -56,6 +56,9 @@ class Review:
         """Return the text of the abstract."""
         return self.soup.find(class_='review-detail__abstract').get_text()
 
+    def best_new_music(self):
+        return self.soup.find(class_='bnm-arrows') != None
+
     def editorial(self):
         """Return the main review text."""
         return self.soup.find(class_='contents dropcap').get_text()
@@ -100,6 +103,7 @@ class Review:
         """Print a list of methods."""
         help_text = """score()
 abstract()
+best_new_music()
 editorial()
 full_text()
 cover()

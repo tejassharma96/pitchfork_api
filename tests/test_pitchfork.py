@@ -18,6 +18,9 @@ class TestReview(unittest.TestCase):
     def test_reviev_artist(self):
         self.assertEqual(self.review.artist(), 'Mogwai')
 
+    def test_reviev_best_new_music(self):
+        self.assertEqual(self.review.best_new_music(), True)
+
     def test_review_label(self):
         self.assertEqual(self.review.label(), 'Chemikal Underground')
 
