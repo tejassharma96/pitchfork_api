@@ -7,7 +7,7 @@ Apologies for the confusing naming - pypi doesn't allow the use of underscores i
 [![Build Status](https://travis-ci.org/tejassharma96/pitchfork_api.svg?branch=master)]()
 [![PyPI version](https://img.shields.io/pypi/v/pitchfork-api.svg)](https://pypi.python.org/pypi/pitchfork-api/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/pitchfork-api.svg?maxAge=2592000)]()
-[![PyPI license](https://img.shields.io/pypi/l/pitchfork-api.svg)](https://pypi.python.org/pypi/pitchfork-api/)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 
 Installation
