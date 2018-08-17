@@ -11,17 +11,17 @@ An unofficial python API for [pitchfork.com](http://www.pitchfork.com) reviews. 
 Installation
 ------------
 
-You can get it from [python package index](https://pypi.python.org/pypi):
+You can get it from the [python package index](https://pypi.python.org/pypi):
 
 ```sh
-pip install pitchfork
+pip install pitchfork-api
 ```
 
-You can also clone the repository, but note that ``pitchfork`` depends on ``beautifulsoup4`` for HTML parsing so you first have to install ``beautifulsoup4`` yourself:
+You can also clone the repository, but note that ``pitchfork_api`` depends on ``beautifulsoup4`` for HTML parsing so you first have to install ``beautifulsoup4`` yourself:
 
 ```sh
-git clone https://github.com/michalczaplinski/pitchfork.git
-cd pitchfork
+git clone https://github.com/tejassharma96/pitchfork_api.git
+cd pitchfork_api
 pip install -r requirements.txt
 ```
 
@@ -30,9 +30,9 @@ Usage
 -----
 
 ```python
->> import pitchfork
+>> import pitchfork_api
 
->> p = pitchfork.search('kanye west', 'my beautiful') # the title is autocompleted
+>> p = pitchfork_api.search('kanye west', 'my beautiful') # the title is autocompleted
 >> p.album() # the full album title
 u'My Beautiful Dark Twisted Fantasy'
 
@@ -66,4 +66,4 @@ MIT
 
 Contributions
 -------------
-If you want to add some new feature, suggest improvement or whatnot you're welcome to message me or send a pull request!
+If you want to add a new feature, suggest improvement or whatnot you're welcome to message me or send a pull request!
