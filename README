@@ -4,11 +4,11 @@ pitchfork
 An unofficial python API for
 `pitchfork.com <http://www.pitchfork.com>`__ reviews.
 
-+------------------+--------------------+-----------------------+
-| Build Status     | Version            | Downloads (30 days)   |
-+==================+====================+=======================+
-| |Build Status|   | |Latest Version|   | |Downloads|           |
-+------------------+--------------------+-----------------------+
++------------------+--------------------+
+| Build Status     | Version            |
++==================+====================+
+| |Build Status|   | |Latest Version|   |
++------------------+--------------------+
 
 Installation
 ------------
@@ -51,7 +51,6 @@ Usage
 
     >> p.score()
     10.0
-    # pretty overrated IMHO!
 
 Tests
 -----
