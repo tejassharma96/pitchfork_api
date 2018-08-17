@@ -1,5 +1,5 @@
-pitchfork
-=========
+pitchfork-api
+=============
 
 An unofficial python API for
 `pitchfork.com <http://www.pitchfork.com>`__ reviews.
@@ -9,6 +9,8 @@ An unofficial python API for
 +==================+====================+
 | |Build Status|   | |Latest Version|   |
 +------------------+--------------------+
+
+Apologies for the confusing naming - pypi doesn't allow the use of underscores in package names, while python doesn't allow dashes in module names. As a result, the package name is `pitchfork-api`, but it is `pitchfork_api` everywhere else.
 
 Installation
 ------------
@@ -51,6 +53,18 @@ Usage
 
     >> p.score()
     10.0
+
+    # to check what methods are available, you can use 'methods()'
+    >> p.methods()
+    score()
+    abstract()
+    editorial()
+    full_text()
+    cover()
+    artist()
+    album()
+    label()
+    year()
 
 Tests
 -----

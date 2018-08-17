@@ -6,7 +6,7 @@ with open("README", "r") as fh:
 
 setuptools.setup(
     name='pitchfork_api',
-    version='0.0.2',
+    version='0.0.3',
     author='Tejas Sharma',
     author_email='tejas.s1996@gmail.com',
     packages=setuptools.find_packages(),

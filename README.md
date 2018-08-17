@@ -1,7 +1,7 @@
 # pitchfork_api
 An unofficial python API for [pitchfork.com](http://www.pitchfork.com) reviews. A maintained version of @michalczaplinski's pitchfork package.
 
-Apologies for the confusing naming - pypi doesn't allow the use of underscores in package names, while python doesn't allow dashes in module names. As a result, the package name is `pitchfork-api`, but it is `pitchfork_api` everywhere else.
+Apologies for the confusing naming - pypi doesn't allow the use of underscores in package names, while python doesn't allow dashes in module names. As a result, the package name is `pitchfork-api`, but it is `pitchfork_api` everywhere else, including in usage.
 
 
 [![Build Status](https://travis-ci.org/tejassharma96/pitchfork_api.svg?branch=master)]()
@@ -50,6 +50,18 @@ u"Kanye West's 35-minute super-video,\xa0Runaway, peaks with a parade. Fireworks
 
 >> p.score()
 10.0
+
+# to check what methods are available, you can use 'methods()'
+>> p.methods()
+score()
+abstract()
+editorial()
+full_text()
+cover()
+artist()
+album()
+label()
+year()
 ```
 
 Tests
