@@ -4,8 +4,8 @@ except ImportError:
     from distutils.core import setup
 
 setup(
-    name='pitchfork',
-    version='v0.1.5',
+    name='pytchfork_api',
+    version='v0.0.1',
     author='Tejas Sharma',
     author_email='tejas.s1996@gmail.com',
     packages=['pitchfork', 'tests'],
