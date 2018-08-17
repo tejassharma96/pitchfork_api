@@ -8,7 +8,7 @@ setup(
     version='v0.0.1',
     author='Tejas Sharma',
     author_email='tejas.s1996@gmail.com',
-    packages=['pitchfork', 'tests'],
+    packages=['pitchfork_api', 'tests'],
     scripts=[],
     url='https://github.com/tejassharma96/pitchfork_api/',
     license='LICENSE.txt',
