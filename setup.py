@@ -6,7 +6,7 @@ with open("README", "r") as fh:
 
 setuptools.setup(
     name='pitchfork_api',
-    version='0.0.1',
+    version='0.0.2',
     author='Tejas Sharma',
     author_email='tejas.s1996@gmail.com',
     packages=setuptools.find_packages(),
@@ -15,7 +15,6 @@ setuptools.setup(
     license='LICENSE.txt',
     description='Unofficial API for pitchfork.com reviews, maintained version of pitchfork',
     long_description=long_description,
-    long_description_content_type="text/markdown",
     install_requires=['beautifulsoup4'],
     classifiers=[
         'License :: OSI Approved :: MIT License',
