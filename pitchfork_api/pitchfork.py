@@ -93,7 +93,7 @@ class Review:
         In case of a reissue album, the year of original release as well as
         the year of the reissue is given separated by '/'.
         """
-        year = self.soup.find(class_='single-album-tombstone__meta-year').get_text()
+        year = self.soup.find(class_='single-album-tombstone__meta-year').get_text()[3:]
         return year
 
     def methods(self):
