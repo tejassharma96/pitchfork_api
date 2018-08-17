@@ -5,7 +5,7 @@ with open("README", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='pitchfork-api',
+    name='pitchfork_api',
     version='0.0.2',
     author='Tejas Sharma',
     author_email='tejas.s1996@gmail.com',

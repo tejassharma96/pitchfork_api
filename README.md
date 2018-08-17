@@ -1,8 +1,8 @@
-# pitchfork-api
+# pitchfork_api
 An unofficial python API for [pitchfork.com](http://www.pitchfork.com) reviews. A maintained version of @michalczaplinski's pitchfork package.
 
 
-[![Build Status](https://travis-ci.org/tejassharma96/pitchfork-api.svg?branch=master)]()
+[![Build Status](https://travis-ci.org/tejassharma96/pitchfork_api.svg?branch=master)]()
 [![PyPI version](https://img.shields.io/pypi/v/pitchfork-api.svg)](https://pypi.python.org/pypi/pitchfork-api/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/pitchfork-api.svg?maxAge=2592000)]()
 [![PyPI license](https://img.shields.io/pypi/l/pitchfork-api.svg)](https://pypi.python.org/pypi/pitchfork-api/)
@@ -30,9 +30,9 @@ Usage
 -----
 
 ```python
->> import pitchfork-api
+>> import pitchfork_api
 
->> p = pitchfork-api.search('kanye west', 'my beautiful') # the title is autocompleted
+>> p = pitchfork_api.search('kanye west', 'my beautiful') # the title is autocompleted
 >> p.album() # the full album title
 u'My Beautiful Dark Twisted Fantasy'
 
