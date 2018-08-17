@@ -73,8 +73,8 @@ Contributions
 If you want to add some new feature, suggest improvement or whatnot
 you're welcome to message me or send a pull request!
 
-.. |Build Status| image:: https://travis-ci.org/tejassharma96/pitchfork_api.svg?branch=master
-   :target: https://travis-ci.org/tejassharma96/pitchfork_api
+.. |Build Status| image:: https://travis-ci.org/tejassharma96/pitchfork-api.svg?branch=master
+   :target: https://travis-ci.org/tejassharma96/pitchfork-api
 .. |Latest Version| image:: https://pypip.in/v/pitchfork-api/badge.png
    :target: https://pypi.python.org/pypi/pitchfork-api/
 .. |Downloads| image:: https://pypip.in/download/pitchfork-api/badge.png

@@ -30,6 +30,6 @@ SOFTWARE.
 """
 
 __version__ = "0.0.2"
-name = "pitchfork_api"
+name = "pitchfork-api"
 
-from pitchfork_api.pitchfork import search
+from pitchfork-api.pitchfork import search
