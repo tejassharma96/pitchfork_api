@@ -55,6 +55,7 @@ u"Kanye West's 35-minute super-video,\xa0Runaway, peaks with a parade. Fireworks
 >> p.methods()
 score()
 abstract()
+best_new_music()
 editorial()
 full_text()
 cover()
